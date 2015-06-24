@@ -1,6 +1,5 @@
 body {
 	padding-top: 50px;
-	padding-bottom: 50px;
 }
 .navbar-fixed-top {
 	background: #3C8492;
@@ -12,15 +11,24 @@ body {
 	padding-left: 50px;
 	padding-right: 50px;
 }
+.container-grey {
+	background: #F0F0F0;
+}
 hr {
    	border: 0;
    	height: 0;
    	border-top: 1px solid rgba(0, 0, 0, 0.1);
    	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
-.about {
+.container-parent {
 	background: #F0F0F0;
 	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+.about-footer {
+	background: #3C8492;
+	padding: 50px 0px 10px 0px;
 	margin: 0px;
 	border: 0px;
 }
@@ -28,8 +36,30 @@ p {
 	color: #808080;
 }
 h3 {
-	color: black;
+	color: #162836;
 }
-.container-footer {
-	margin-top: 50px;
+h2 {
+	color: #3C8492;
+	margin-bottom: 0px;
+}
+.header-text {
+	color: white;
+}
+.header-text-link {
+	color: white;
+	font-size: 12;
+	padding-left: 10px;
+}
+.footer {
+	padding: 100px 50px 100px 50px;
+}
+.row-content {
+	padding-top: 40px; 
+	padding-bottom: 40px;
+}
+img.content {
+	padding-top: 25px;
+}
+li {
+	display: inline;
 }
