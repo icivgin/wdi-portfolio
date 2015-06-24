@@ -1,0 +1,35 @@
+body {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.navbar-fixed-top {
+	background: #3C8492;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+.container {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+hr {
+   	border: 0;
+   	height: 0;
+   	border-top: 1px solid rgba(0, 0, 0, 0.1);
+   	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.about {
+	background: #F0F0F0;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+p {
+	color: #808080;
+}
+h3 {
+	color: black;
+}
+.container-footer {
+	margin-top: 50px;
+}
