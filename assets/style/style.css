@@ -28,7 +28,8 @@ hr {
 }
 .about-footer {
 	background: #3C8492;
-	padding: 50px 0px 10px 0px;
+	padding: 10px;
+	padding-top: 20px;
 	margin: 0px;
 	border: 0px;
 }
@@ -62,4 +63,37 @@ img.content {
 }
 li {
 	display: inline;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #72CDDE;
+}
+.navbar-default .navbar-nav .dropdown-menu > li.dropdown-header {
+	font-size: 16;
+}
+.navbar-default .navbar-nav .dropdown-menu > li > a {
+	font-size: 12;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #72CDDE;
+	background-color: initial;
+}
+.navbar-header .navbar-toggle > span.icon-bar {
+	background-color: white;
+}
+.row-center {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
