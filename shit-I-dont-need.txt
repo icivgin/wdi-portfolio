@@ -24,3 +24,34 @@
 			</div>
 		</div>
 	</div>
+
+	window.addEventListener("DOMContentLoaded", function() {
+	  // all code goes here
+	var x = document.getElementById('btn-submit');
+	var enteredBool = false;
+
+	if (enteredBool) {
+		alert('Already subscribed!');
+	}
+	else {
+		x.addEventListener ('click', function () {
+			var nameBool = document.getElementById('input-name').value;
+			var emailBool = document.getElementById('input-email').value;
+			var emailValid = document.getElementById('input-email').value.indexOf('@');
+			var emailValidBool = false;
+
+			if (emailValid !== -1){
+				var emailValidBool = true;
+			}
+
+			if (nameBool && emailBool && emailValidBool) {
+		    	alert('Your email has been added to the list!');
+		    	document.getElementsByTagName('body')[0].style.background = 'green';
+		    	enteredBool = true;
+			}
+			else {
+				alert('Please enter your information :)')
+			}
+		});
+	}
+});

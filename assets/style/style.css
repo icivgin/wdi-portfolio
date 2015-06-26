@@ -26,6 +26,9 @@ hr {
 	margin: 0px;
 	border: 0px;
 }
+.last {
+	padding-bottom: 50px;
+}
 .about-footer {
 	background: #3C8492;
 	padding: 10px;
@@ -95,5 +98,41 @@ li {
 	padding-left: 100px;
 	padding-right: 100px;
 	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-bottom: 90px;
+}
+#testtest {
+	min-height: 100%;
+	position: relative;
+}
+#foot {
+	position: absolute;
+ 	bottom: 0;
+    width: 100%;
+    background: #3C8492;
+	padding: 20px 10px 10px 10px;
+}
+.input-group {
+	margin-bottom: 10px;
+}
+#btn-submit {
+	background-color: #3C8492;
+	color: white;
+	border: 0px;
+	border-radius: 5px;
+}
+#input-name {
+	margin-top: 5px;
+}
+.tab-content p {
+	color: #162836;
+	background-color: rgba(60, 132, 146, .2);
+	padding: 20px;
+	border-radius: 0px 0px 10px 10px;
+}
+.nav-pills {
+	padding-top: 10px;
+}
+.nav-pills > li.active > a {
+	background-color: #162836;
+	border-radius: 10px 0px 0px 0px;
 }
