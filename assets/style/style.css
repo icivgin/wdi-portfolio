@@ -58,7 +58,7 @@ h2 {
 	padding: 100px 50px 100px 50px;
 }
 .row-content {
-	padding-top: 40px; 
+	padding-top: 20px; 
 	padding-bottom: 40px;
 }
 img.content {
@@ -135,4 +135,10 @@ li {
 .nav-pills > li.active > a {
 	background-color: #162836;
 	border-radius: 10px 0px 0px 0px;
+}
+.inverse-color h3{
+	color: #CC1C24;
+}
+.inverse-color p {
+	color: #707070;
 }

@@ -122,3 +122,35 @@ for (i = 0; i < allA.length; i++) {
         this.style.color = "red";
     });
 }
+
+// sillySum
+var asdf = [3, 5, 2];
+function sillySum(array) {
+    var count = 0;
+    for (i=0; i<array.length; i++) {
+        count += (array[i] * i)
+    }
+    return count;
+}
+
+// numSquare
+function numSquare(max) {
+    var arr = []; 
+    for (i=0; i<max; i++) {
+        if ((i % Math.sqrt(i)) === 0) {
+            arr.push(i);
+        }
+    }
+    return arr;
+}
+
+// primes
+function primes(max) {
+    var arr = []; 
+    for (i=0; i<max; i++) {
+        if (isPrime(i)) {
+            arr.push(i);
+        }
+    }
+    return arr;
+}
